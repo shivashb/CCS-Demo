@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shopping Basket - Fruit Shop</title>
+    <title>About Us - Fruit Shop - Fresh Fruits Online</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -22,9 +22,10 @@
         <nav role="navigation" aria-label="Main navigation">
           <div class="nav-links">
             <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
+            <a href="about.html" class="active">About Us</a>
             <a href="bundles.html">Bundles</a>
             <a href="personality-quiz.html" class="quiz-link">🌟 Fruit Quiz</a>
+            <a href="subscription.html" class="subscription-link">🍎 Subscription</a>
           </div>
           <a
             href="basket.html"
@@ -44,33 +45,29 @@
     </header>
     <main id="main-content" role="main">
       <div class="content-box">
-        <h1>Your Shopping Basket</h1>
-        <ul
-          class="order-list"
-          id="basketList"
-          aria-label="Shopping basket items"
-        ></ul>
-        <div class="cart-buttons-row" role="group" aria-label="Basket actions">
-          <button id="clearBasket" aria-label="Clear all items from basket">
-            Clear Basket
-          </button>
-          <a
-            href="checkout.html"
-            id="checkoutLink"
-            aria-label="Proceed to checkout"
-          >
-            <button id="checkoutBtn">Checkout</button>
-          </a>
+        <h1>About Our Mission</h1>
+        <p>Connecting people with sustainable fruit choices to create a better world, one quiz at a time.</p>
+        
+        <h2>Join the Movement</h2>
+        <p>Share your results and inspire others to make conscious choices!</p>
+        
+        <div class="about-details">
+          <h3>🌱 Our Story</h3>
+          <p>At Fruit Shop, we believe that every fruit choice matters. We're passionate about connecting people with fresh, sustainable fruits while making a positive impact on our environment.</p>
+          
+          <h3>🌍 Our Values</h3>
+          <ul class="values-list">
+            <li>🍃 <strong>Sustainability:</strong> Supporting eco-friendly farming practices</li>
+            <li>🤝 <strong>Community:</strong> Building connections through shared values</li>
+            <li>💚 <strong>Health:</strong> Promoting nutritious, natural choices</li>
+            <li>🌟 <strong>Quality:</strong> Delivering the freshest fruits to your door</li>
+          </ul>
+          
+          <h3>📍 Our Impact</h3>
+          <p>Every purchase you make helps support local farmers, reduces environmental impact, and promotes sustainable agriculture. Together, we're creating a healthier world, one fruit at a time.</p>
         </div>
       </div>
     </main>
     <script src="shop.js"></script>
-    <script>
-      renderBasket();
-      document.getElementById("clearBasket").onclick = function () {
-        clearBasket();
-        renderBasket();
-      };
-    </script>
   </body>
 </html>
