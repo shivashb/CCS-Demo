@@ -2,7 +2,7 @@ const PRODUCTS = {
   apple: { name: "Apple", emoji: "🍏" },
   banana: { name: "Banana", emoji: "🍌" },
   lemon: { name: "Lemon", emoji: "🍋" },
-  litchi: { name: "Litchi", emoji: "🍇" },
+  litchi: { name: "Litchi", emoji: "🔴" },
   kiwi: { name: "Kiwi", emoji: "🥝" },
 };
 
