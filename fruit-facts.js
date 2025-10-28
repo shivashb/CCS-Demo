@@ -52,6 +52,42 @@ const FRUIT_FACTS = {
       "Supports skin health"
     ],
     season: "Peak season from November to March"
+  },
+  litchi: {
+    nutrition: {
+      calories: "66 kcal",
+      fiber: "1.3g",
+      vitamin_c: "119% DV"
+    },
+    facts: [
+      "Litchi originated in China over 2,000 years ago",
+      "Each litchi fruit contains exactly one seed",
+      "The fruit's bumpy skin protects the sweet, translucent flesh inside"
+    ],
+    benefits: [
+      "Extremely high in vitamin C",
+      "Supports immune system health", 
+      "Rich in antioxidants and flavonoids"
+    ],
+    season: "Best from May to August"
+  },
+  kiwi: {
+    nutrition: {
+      calories: "61 kcal", 
+      fiber: "3g",
+      vitamin_c: "154% DV"
+    },
+    facts: [
+      "Kiwis contain more vitamin C than oranges",
+      "You can eat the fuzzy skin - it's full of nutrients!",
+      "Originally called Chinese gooseberries"
+    ],
+    benefits: [
+      "Boosts immune function",
+      "Aids in digestion with natural enzymes",
+      "Supports heart health"
+    ],
+    season: "Available year-round, peak in winter"
   }
 };
 
